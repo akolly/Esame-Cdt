@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="trasforma.xsl"?>
+
+<teiCorpus 
+    xmlns:xi="http://www.w3.org/2001/XInclude">  
+
+	<teiHeader xml:lang="it">
+		<fileDesc>
+  			
+				<respStmt>
+					<resp>Trascrizione di:</resp>
+					<name xml:id="gmc1"><persName>Gennaro Mauro Colonna, matr. 550463 </persName> - <persName>Justin Elom Akumah, matr. 543741</persName></name>
+				</respStmt>
+				<!-- ENTE DI APPARTENENZA -->
+				<respStmt>
+					<resp>Ente di Appartenenza</resp>
+					<name type="comune" xml:id="SP2">Comune di <placeName>La Spezia</placeName></name>
+				</respStmt>
+  			</titleStmt>
+  			<editionStmt>
+				<edition>Edizione Studenti Unipi  <!-- COMPILAZIONE -->
+					<date>2018</date>
+				</edition>
+				<!-- NOME COMPILATORE -->
+				<respStmt>
+					<resp xml:id="compilato">Compilato da:</resp>
+					<name xml:id="TC"><persName>Tommaso Castagneto</persName></name>
+				</respStmt>
+				<!-- NOME CODIFICATORE -->
+				<respStmt>
+					<resp xml:id="codificato">Codificato da:</resp>
+					<name xml:id="gmc2"><persName>Gennaro Mauro Colonna </persName> - <persName>Justin Elom Akumah</persName></name>
+				</respStmt>
+				<!-- REFERENTE SCIENTIFICO -->
+				<respStmt>
+					<resp xml:id="refAccad">Referente Accademico:</resp>
+					<name xml:id="AMDG"><persName>Angelo Mario Del Grosso</persName></name>
+				</respStmt>
+				<respStmt>
+					<resp xml:id="refScien">Referenti Scientifici:</resp>
+					<name xml:id="GP"><persName>Giacomo Paolicchi</persName></name>
+					<name xml:id="ES"><persName>Enrica Salvatori</persName></name>
+				</respStmt>
+				<respStmt>
+					<resp xml:id="funzResp">Funzionario responsabile:</resp>
+					<name xml:id="ER"><persName>E. Ratti</persName></name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher xml:id="editore"><orgName>Unipi</orgName></publisher>
+				<pubPlace>Pisa</pubPlace>
+				<availability>
+					<p xml:id="licenza">Available under licence only</p>
+				</availability>
+				<date when="2019">2019</date>
+				<distributor><name ref="http://www.labcd.unipi.it/">LabCD</name>
+				<graphic url="Unipi-Labcd_Blu.png"/>
+				</distributor>
+				<address>
+					<addrLine xml:id="dipartimento"><name ref="http://www.fileli.unipi.it">Dipartimento di Filologia, Letteratura, Linguistica</name></addrLine>
+ 					<street>Piazza Torricelli, 2 (Palazzo Matteucci)</street>
+ 					<postCode>56126</postCode>
+ 					<name xml:id="citta"><placeName>Pisa</placeName></name>
+ 					<name xml:id="nazione"><country>Italy</country></name>
+				</address>
+			</publicationStmt>
+			
+			
+		</fileDesc>
+		
+	</teiHeader>

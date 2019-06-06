@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="trasformaCorpo.xsl"?>
+<!DOCTYPE teiCorpus SYSTEM '3cards.dtd'>
+<teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude">  
+
+	<teiHeader xml:lang="it">
+		<fileDesc>
+  			<titleStmt>
+  				<!-- TITOLO -->
+   			<title  ref="index.html">Progetto esame Codifica dei testi - Edizione digitale Cartoline 7694-073, 7694-077, 7694-079</title>
+				<author xml:id="GI1">
+				<name xml:id="gmc-jea"><persName>Gennaro Mauro Colonna, matr. 550463 </persName>e <persName>Justin Elom Akumah, matr. 543741</persName></name>
+				</author>
+				<!-- TRASCRITTORE -->
+				
+				
+  			</titleStmt>
+  			
+		</fileDesc>
+		
+	</teiHeader>
+     
+    
+     <!-- meccanismo di inclusione dei vari file nomefile.xml-->
+  	
+  	
+  		<xi:include  href="7694-073.xml" parse="xml"></xi:include>
+   
+  		<xi:include href="7694-077.xml" parse="xml"></xi:include>
+   
+		<xi:include  href="7694-079.xml"  parse="xml"></xi:include>
+  
+ 
+</teiCorpus>
+
+     
+

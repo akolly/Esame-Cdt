@@ -1,0 +1,797 @@
+* {
+    font-family: "Caveat-Regular", "Dejavu Sans", sans-serif;
+    font-size: 100%;
+}
+
+
+body {
+	background-color: #ffffcc;
+   margin-left: 2%;
+   margin-right: 2%;
+   padding-top: 0%;
+   opacity:1.;
+   
+}
+
+div.testa {
+	display: inline;
+	padding: 19%;
+} 
+
+#navbar {
+  text-align:center;
+  background-color: #177dc0;
+  width: 96%;
+  position: absolute;
+}
+#navbar a {
+  color: #ffffcc;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 140%;
+  
+}
+#navbar a:hover {
+  background-color: #0b5889;
+  color: #ffffff;
+}
+#esaminandi{
+	text-align: center;
+	display: inline;
+	padding: 3%;
+	font-weight: bold;
+   font-size: 100%;	
+}
+
+
+
+
+
+div.editor {
+	 margin-top: 20px;
+	 padding-left: 2%;
+	 padding-right: 2%;
+    background: #cccc00;
+    opacity: 0.9;
+    border: 1px solid;
+    
+  
+}
+
+div.unipi {
+	 margin-top: 0px;
+	 padding-left: 2%;
+	 padding-right: 2%;
+    background: #cccc00;
+    opacity: 0.9;
+    border: 1px solid;
+	
+}
+
+div.autore {
+	 margin-top: -40px;
+	 padding-left: 2%;
+	 padding-right: 2%;
+    background: #fafa88;
+    opacity: 0.9;
+    border: 1px solid;
+	 
+}
+
+.fotoAutore {
+	padding-left:70%;
+	margin-top: 0px;
+	align-content: center;
+	
+}
+
+
+
+div.editore {
+	 margin-top: -20px;
+	 padding-left: 2%;
+	 padding-right: 2%;
+    background: #fafa88;
+    opacity: 0.9;
+    border: 1px solid;
+	
+}
+
+div.contents {
+	 margin-top: -22px;
+	 padding-left: 2%;
+	 padding-right: 2%;
+    background: #ffffff/*#a5f20d*/;
+    opacity: 0.9;
+    border: 1px solid;
+	
+	 
+}
+div.info{
+	 padding-left: 200%;
+	 padding-right: 2%;
+}
+
+div.collocazione {
+	 margin-top: -20px;
+	 padding-left: 2%;
+	 padding-right: 2%;
+    background: #a5f20d;
+    opacity: 0.9;
+    border: 1px solid;
+	
+	
+}
+
+
+
+div.sender {
+	 margin-top: -30px;
+	 padding-left: 2%;
+	 padding-right: 2%;
+    background: #d2ff4d;
+    opacity: 0.9;
+    border: 1px solid;
+	 
+}
+
+div.recipient {
+	 margin-top: -30px;
+	 padding-left: 2%;
+	 padding-right: 2%;
+    background: #d2ff4d;
+    opacity: 0.9;
+    border: 1px solid;
+	 
+}
+
+
+div.message{
+	 margin-top: -15px;
+	 align-items: center;
+	 padding-left: 20%;
+	 padding-right: 2%;
+    background: #ace600;
+    opacity: 0.9;
+    border: 1px solid;
+	 
+}
+div.citazione {
+	 margin-top: -18px;
+	 align-items: center;
+	 padding-left: 2%;
+	 padding-right: 2%;
+    background: #ace600;
+    opacity: 0.9;
+    border: 1px solid;
+}
+
+div.commenti {
+	 margin-top: -18px;
+	 padding-left: 2%;
+	 padding-right: 2%;
+    background: #cc3300;
+    color: whitesmoke;
+    opacity: 0.9;
+    border: 1px solid;
+    
+}
+
+
+.livelli {
+	 padding-left: 2%;
+	 padding-right: 2%;
+    background: #d6d6c2;
+    opacity: 0.9;
+    
+    }
+    
+
+
+
+div.header {
+    padding-right: 1%;
+    background: #ffffff;
+    opacity: 0.9;
+    border: 1px solid;
+   
+}
+
+ /* Tooltip  */
+.tooltip {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+	 }
+/* Tooltip  */
+.tooltip:hover {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+	 }
+
+
+/* end Tooltip text */
+ div {
+    display: inline;
+  }
+  
+
+h1 {
+	text-align: center;
+	font-style: italic;
+	color: black;
+	font-size:x-large; 
+	
+}
+h2 {
+	text-align: center;
+	font-style: italic;
+	font-size:large;
+	color: #E60000;
+	text-shadow: 2px 2px 4px #ffffff;
+}
+h3 {
+	text-align: center;
+	font-style: italic;
+	color: red;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: medium;
+}
+h4 {
+	text-align: center;
+	font-style: italic;
+	color:  blueviolet;
+	font-size: small;
+}
+
+
+
+img {
+   max-width: 100%;
+   height: auto;
+	/*border-radius: 3%;*/
+	
+}
+
+.image_fronte {
+   max-width: 100%;
+   height: auto;
+	/*border-radius: 3%;*/
+	
+}
+i{
+	font-weight: bold;
+}
+
+/* per cellulari */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-color:
+    }
+}
+/* title principale*/
+
+div.title{
+	text-align: center;
+	font-style: italic;
+	color: red;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: xx-large;
+	padding-left:1%;
+	
+}
+div.title h1{
+	 padding-top: 2%;
+    text-align: center;
+    color: E60000; 
+    text-shadow: 2px 2px 4px #000000;
+    font-size: xx-large;
+    font-weight: bold;
+    font
+}
+/* titolo principale */
+
+div.title h2{
+	 padding-bottom: 0%;
+    text-align: center;
+    color: #E60000; 
+    text-shadow: 2px 2px 4px color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+    font
+}
+
+div.title h3 {
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    color: red;
+    text-shadow: 2px 2px color: #000000;
+    font-size:medium;
+    align-content: center;
+}
+
+
+.cherubino{
+text-align: center;
+padding-top: 2%;
+}
+	/*div class cartolina */
+.cartolina { 
+	 position:f;
+    text-align: fixed;
+    color: black; 
+    font-size: inherit;
+    font-weight: inherit;
+    
+}
+
+.cartolina:hover { 
+	text-align: center;
+    /*color: red;*/ 
+    /*text-shadow: 2px 2px 4px #000000;*/
+    font-size: inherit;
+    font-weight: bold;
+    
+}
+
+   /* class author */
+.author {
+	font-family: inherit;
+	font-size: inherit;
+	color: #003300;
+	}
+
+.author:hover {
+	font-family: inherit;
+   font-size: inherit;
+   font-weight: bolder;
+   color: #003300;
+	}
+
+/* class tipografia */
+.tipografia {
+	
+	font-family: inherit;
+	font-size: inherit;
+	color: #003300;
+	}
+
+.tipografia:hover {
+	font-family:inherit;
+   font-size: inherit;
+   font-weight: bolder;
+   color: #003300;
+	}
+	
+/* class museo */
+.museo {
+	font-family: inherit;
+	font-size: inherit;
+   color: inherit;
+	}
+
+.museo:hover {
+	font-family:inherit;
+   font-size: inherit;
+   font-weight:bolder;
+   color: red;
+	}
+
+
+/* class GAM Milano */
+.gam {
+	font-family: inherit;
+	font-size: inherit;
+   color: white;
+   
+	}
+
+.gam:hover {
+	font-family:inherit;
+   font-size: inherit;
+   font-weight:bolder;
+   color: red;
+	}
+	
+a:link, a:visited {
+  background-color: inherit;
+  font-weight: bold; 
+  color: blue;
+  text-decoration: underlined;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: inherit;
+}	
+
+/* class titoletto */
+.titoletto {
+	 font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+	 }
+.titoletto:hover {
+	font-weight:bolder;
+	font-size: inherit;
+	color: blue; 
+	}
+
+/* class person Name */
+.name {
+	 font-family: cursive;
+    font-size: inherit;
+    color: bold;
+	 }
+.name:hover {
+	font-weight:bolder;
+	font-size: inherit;
+	color: red; 
+	}	 
+	 
+.person {
+	 font-family: "Caveat", cursive;
+    font-size: inherit;
+    color: inherit;
+	}
+	
+.person:hover {
+	font-weight:bolder;
+	color: red; 
+	}
+	
+/* mittente */
+.destinatario {
+	font-family: inherit;
+   font-size: inherit;
+   color: inherit;
+	}
+.destinatario:hover {
+	font-weight:bold;
+	font-size: inherit;
+	color: blue; 
+	}
+
+/* destinatario */
+.mittente {
+	font-family: inherit;
+   font-size: inherit;
+   color: inherit;
+	}
+.mittente:hover {
+	font-weight:bold;
+	font-size: inherit;
+	color: blue; 
+	}	
+	
+
+/* placeName */
+.placeName {
+	font-family: inherit;
+   font-size: inherit;
+   color: inherit;
+	}
+.placeName:hover {
+	font-weight:bold;
+	font-size: inherit;
+	color: blue; 
+	}
+
+/* data */	
+.data {
+	font-family: inherit;
+   font-size: inherit;
+   color: inherit;
+	}
+.data:hover {
+	font-weight:bolder;
+	font-size: inherit;
+	color: blue; 
+	}
+
+/* messaggio */	
+.testoMsg {
+	font-family: inherit;
+   font-size: inherit;
+   color: inherit;
+	}
+.testoMsg:hover {
+	font-weight:bolder;
+	font-size: inherit;
+	color: blue; 
+	}	
+	
+/* versi */	
+.citazione {
+	font-family: inherit;
+   font-size: inherit;
+   color: inherit;
+	}
+.citazione:hover {
+	font-weight:bolder;
+	font-size: inherit;
+	color: blue; 
+	}	
+	
+	/* pubPlace */
+.pubPlace {
+	font-family: inherit;
+   font-size: inherit;
+   color: inherit;
+	}
+.pubPlace:hover {
+	font-weight:bolder;
+	font-size: inherit;
+	color: red; 
+	}
+/*person name */
+.person {
+   font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+   color: #003300;
+	}
+.person:hover {
+   font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+   color: red;
+	}
+
+/*manoscritto */
+.note {
+   font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+   color: #003300;
+	}
+.note:hover {
+   font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+   color: red;
+	}
+
+		
+/* Name */
+.name {
+	 font-family: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    color: inherit;
+	}
+	
+.name:hover {
+	font-weight:bolder;
+	font-size: inherit;
+	color: red; 
+	}	
+	
+.geoName {
+	 font-family: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    color: inherit;
+	}
+	
+.geoName:hover {
+	font-weight:bolder;
+	font-size: inherit;
+	font-weight: bolder;
+	color: red; 
+	}	
+.orgName {
+	 font-family: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    color: inherit;
+	}
+	
+.orgName:hover {
+	font-weight:bolder;
+	font-size: inherit;
+	font-weight: bolder;
+	color: red; 
+	}		
+/*listBibl	
+.bibl {
+	font-family: "Caveat-Regular";
+	font-size: larger;
+   color: #003300;
+}*/
+
+.IDcollezione {
+   font-family: inherit;
+	font-size: inherit;
+   color: #003300;
+   font-weight: bolder;
+	}
+.IDcollezione:hover {
+   font-family: inherit;
+	font-size: inherit;
+   color: blue;
+   font-weight: bolder;
+	}
+
+.studenti {
+   font-family: inherit;
+	font-size: inherit;
+   color: #003300;
+	}
+.studenti:hover {
+   font-family: inherit;
+	font-size: inherit;
+	color: red;
+	font-weight: bolder;
+	}
+	
+.title {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: italic;
+   color: inherit;
+	}	
+.title:hover {
+	font-style: italic;
+	font-weight:bold;	
+	
+	color: #003300;
+	}
+	
+.pubPlace {
+	font-family: inherit;
+	font-size: inherit;
+   color: inherit;
+	}
+	
+.pubPlace:hover {
+	font-weight:bold;
+	color: red;
+	}
+/* non sembra avere effetto	...su Firenze */
+	
+.edizDig {
+	font-family: inherit;
+	font-size: small;
+   color: inherit;
+	}
+	
+.edizDig:hover {
+	font-weight:bold;
+	color: red;
+	}	
+	
+			
+.indirizzo{
+	font-family: inherit;
+	font-size: inherit;
+	font-weight:bold;	
+   color: inherit;
+}	
+.indirizzo:hover{
+	font-family: inherit;
+	font-size: inherit;
+   color: red;
+}	
+.Labcd{
+	font-family: inherit;
+	font-size: inherit;
+	font-weight:bold;	
+   color: inherit;
+}	
+.Labcd:hover{
+	font-family: inherit;
+	font-size: inherit;
+   color: red;
+}	
+
+/* name */
+
+ul.name {
+    list-style-type: none;
+    display: inline;
+    padding: 0%;
+    font-weight: bold;
+}
+li.name {
+    list-style-type: none;
+    display: inline;
+    padding: 0%;
+    font-weight: bold;
+}
+
+div p {
+    text-align: justify;
+    display:inline;
+    height: 50px;
+    
+}
+span.p {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: yellow; 
+  }
+.sommario {
+	text-align: justify;
+	display: inline;
+	}
+*.center {
+    text-align: center;
+}
+
+div.titlePage {
+    text-align: center;
+}
+
+h2.title_folio {
+    border-bottom: 1px dotted;
+    text-align: center;
+    color:red;
+}
+
+div.fronthead {
+    background: lightgreen;
+    padding: 1%;
+    border: 1px solid;
+    border-top: 0px;
+}
+
+div.body {
+    background: lightgray;
+    padding: 1%;
+    border: 1px solid;
+    border-top: 0px;
+}
+
+
+div.Caption {
+    text-align: center;
+}
+
+#quote {
+   text-align: center;
+   font-style: italic;
+   font-weight:bold;
+   color:red;
+}
+#versi {
+	display:block;
+	text-align: center;
+	padding-left: 40%;
+	font-style: italic;
+	color:  red;
+	font-size: smaller;
+	font-family:'Caveat', cursive; 
+	}
+	
+	
+	
+div.footer {
+    background-color: #e2fbf7;
+    text-align: center;
+    border: 1px solid;
+    height: auto;
+}
+
+div.footer p {
+    text-align: center;
+}
+
+
+#place {
+    float: right;
+    height: auto;
+    width: 300px;
+    background-color: lightcoral;
+    border-radius: 3px;
+    border: 1px solid;
+}
